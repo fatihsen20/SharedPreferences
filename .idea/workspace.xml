@@ -9,7 +9,11 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eaa8d940-95b7-41df-992b-d244c501646b" name="Default Changelist" comment="" />
+    <list default="true" id="eaa8d940-95b7-41df-992b-d244c501646b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sharedpreferences/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sharedpreferences/MainActivity.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +33,7 @@
     </system>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/SharedReferenceAndroid" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1vqijAonEm4L8eDdeR5JZfanfq8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -116,9 +120,29 @@
       <option name="presentableId" value="Default" />
       <updated>1627296151578</updated>
     </task>
+    <task id="LOCAL-00001" summary="-----">
+      <created>1627299117311</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1627299117311</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-----" />
+    <option name="LAST_COMMIT_MESSAGE" value="-----" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="406" y="101" key="CommitChangelistDialog2" timestamp="1627299116813">
+      <screen x="0" y="23" width="1920" height="982" />
+    </state>
+    <state x="406" y="101" key="CommitChangelistDialog2/0.23.1920.982@0.23.1920.982" timestamp="1627299116813" />
+    <state x="82" y="93" key="DiffContextDialog" timestamp="1627299104646">
+      <screen x="0" y="23" width="1920" height="982" />
+    </state>
+    <state x="82" y="93" key="DiffContextDialog/0.23.1920.982@0.23.1920.982" timestamp="1627299104646" />
     <state width="1337" height="208" key="GridCell.Tab.0.bottom" timestamp="1627297158023">
       <screen x="0" y="23" width="1920" height="982" />
     </state>

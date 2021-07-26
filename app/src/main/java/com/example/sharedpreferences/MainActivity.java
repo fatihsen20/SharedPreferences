@@ -22,13 +22,15 @@ public class MainActivity extends AppCompatActivity {
         username = findViewById(R.id.activity_main_username);
         pass = findViewById(R.id.activity_main_pass);
         checkBox = findViewById(R.id.activity_main_checkbox);
+
         sharedPreferences = this.getSharedPreferences("com.example.sharedpreferences", Context.MODE_PRIVATE);
         String getusername = sharedPreferences.getString("username" , null);
+        Boolean check = sharedPreferences.getBoolean("checkbox" , false);
 
-        if (!TextUtils.isEmpty(getusername))
+        if (check && !TextUtils.isEmpty(getusername)) {
             username.setText(getusername);
-        else
-            Toast.makeText(this, "Kayıt Yok", Toast.LENGTH_SHORT).show();
+            checkBox.setChecked(check);
+        }
 
     }
     @Override
@@ -47,11 +49,21 @@ public class MainActivity extends AppCompatActivity {
             if (checkBox.isChecked()){
                 editor = sharedPreferences.edit();
                 editor.putString("username", txtUserName);
+                editor.putBoolean("checkbox" , true);
                 editor.apply();
+
                 Toast.makeText(this, "Kullanıcı Adını Kaydettim", Toast.LENGTH_SHORT).show();
             }
-            else
+            else{
+                editor = sharedPreferences.edit();
+                editor.putString("username", null);
+                editor.putBoolean("checkbox" , false);
+                editor.apply();
+
                 Toast.makeText(this, "Giriş Başarılı", Toast.LENGTH_SHORT).show();
+
+            }
+
         }
         else
             Toast.makeText(this, "Kutucukları Boş Bırakmayınız!", Toast.LENGTH_SHORT).show();
