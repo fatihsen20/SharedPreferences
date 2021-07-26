@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/activity_main_username"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Kullanıcı Adı:"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+    <EditText
+        android:id="@+id/activity_main_pass"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:hint="Şifre:"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+    <CheckBox
+        android:id="@+id/activity_main_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beni Hatırla"
+        android:textColor="#000000"
+        />
+    <Button
+        android:id="@+id/activity_main_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giriş Yap"
+        android:textAllCaps="false"
+        android:textSize="17dp"
+        android:textColor="#000000"
+        android:layout_marginTop="8dp"
+        android:onClick="Login"
+        />
+
+</LinearLayout>
